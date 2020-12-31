@@ -18,6 +18,33 @@
     background: url(https://darkatt.github.io/PS4/face04_pink.png);
 }
 
+.ds4 .button.pressed {
+    background-position-y: 55px;
+    /* margin-top: 5px; */
+}
+
+.ds4 .a {
+    background-position: 0 0;
+    bottom: 0;
+    left: 58px;
+}
+
+.ds4 .b {
+    background-position: -57px 0;
+    top: 58px;
+    right: 0px;
+}
+
+.ds4 .x {
+    background-position: -113px 0;
+    top: 58px;
+}
+
+.ds4 .y {
+    background-position: 55px 0;
+    left: 58px;
+}
+
 .ds4 .stick {
     position: absolute;
     background: url(https://darkatt.github.io/PS4/sticks04_pink.png);
