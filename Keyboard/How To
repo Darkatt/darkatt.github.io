@@ -1,0 +1,12 @@
+Download "NohBoard-ReWrite-v1.3.0.zip"
+Extract and then run the executable
+Download "Hazard.style" and place in "keyboards/joao7yt/fps/"
+In NohBoard, right click and select "Load Keyboard"
+Choose "joao7yt" as category and "Hazard" as Keyboard Style.
+
+In StreamLabs, add source as "Window Capture"
+Select NohBoard as the window and click "Done"
+Right Click on source and click "Filters"
+Click the plus icon to add a filter and add filter type "Chroma Key"
+Click "Done" and then edit the chroma key settings if needed (should not need to).
+Click "Done" and enjoy.
