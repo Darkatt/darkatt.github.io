@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://darkatt.github.io/PS4/base04_red.png);
+    background: url(https://joryxnz.github.io/PS4/base04_red.png);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
@@ -8,14 +8,14 @@
 }
 
 .ds4.disconnected {
-    background: url(https://darkatt.github.io/PS4/disconnected04_red.png);
+    background: url(https://joryxnz.github.io/PS4/disconnected04_red.png);
 }
 
 .ds4 .button {
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://darkatt.github.io/PS4/face04_red.png);
+    background: url(https://joryxnz.github.io/PS4/face04_red.png);
 }
 
 .ds4 .button.pressed {
@@ -47,7 +47,7 @@
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://darkatt.github.io/PS4/sticks04_red.png);
+    background: url(https://joryxnz.github.io/PS4/sticks04_red.png);
     height: 94px;
     width: 94px;
 }
