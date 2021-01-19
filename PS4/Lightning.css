@@ -58,15 +58,17 @@ background: url(ps4-white-assets/dpad.svgz); }
         margin-top: -280px;*/
 }
 
+/*
 .ds4.disconnected {
     background: url(https://joryxnz.github.io/PS4/disconnected04_red.png);
 }
+*/
 
 .ds4 .button {
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://joryxnz.github.io/PS4/face04_red.png);
+    background: url(https://imgur.com/XAUKDbc.png);
 }
 
 .ds4 .button.pressed {
@@ -98,7 +100,7 @@ background: url(ps4-white-assets/dpad.svgz); }
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://joryxnz.github.io/PS4/sticks04_red.png);
+    background: url(https://imgur.com/n9dk64u.png);
     height: 94px;
     width: 94px;
 }
