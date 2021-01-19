@@ -1,8 +1,11 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
     background: url(https://joryxnz.github.io/PS4/base04_red.png);
-    /*background-image: url(https://www.usveteransmc.net/x/cdn/?https://storage.googleapis.com/production-homestead-v1-0-2/062/382062/Sjg75yvO/d1bfd71c5d4d4364b4b5c31dd0b8ab22);
-    */height: 598px;
+    background-image: url(https://www.usveteransmc.net/x/cdn/?https://storage.googleapis.com/production-homestead-v1-0-2/062/382062/Sjg75yvO/d1bfd71c5d4d4364b4b5c31dd0b8ab22);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 180px;
+    height: 598px;
     width: 806px;
     /*    margin-left: -403px;
         margin-top: -280px;*/
@@ -13,7 +16,7 @@
 }
 
 .ds4 .face {     
-  background: url(https://imgur.com/MKmpIw0.png);
+  background: url(https://imgur.com/undefined.png);
   position: absolute;
 }
 
