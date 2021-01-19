@@ -83,7 +83,7 @@ background: url(ps4-white-assets/dpad.svgz); }
 }
 
 .ds4 .face {     
-  background-image: url(ps4-white-assets/dpad.svgz);
+  background: url(ps4-white-assets/dpad.svgz);
   position: absolute;
 }
 
