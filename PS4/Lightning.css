@@ -1,54 +1,3 @@
-/BEGIN PS4 White Controller Styling/ 
-
-.controller.ds4.white {     
-  background: url(https://imgur.com/VBnd4Nd.gif); 
-  height: 598px;
-  width: 806px;
-    /*    margin-left: -403px;
-        margin-top: -280px;*/
-
-}  
-/*
-.ds4.white.disconnected {     
-background: url(ps4-assets/disconnected.svgz); }  
-
-.ds4.white .trigger {     
-background: url(https://imgur.com/TGkOEru.png); }  
-
-.ds4.white .bumper {     
-background: url(https://imgur.com/wVMZ4Bf.png); }  
-
-.ds4.white .touchpad.pressed {     
-background: url(ps4-white-assets/touchpad.svgz); }  
-
-.ds4.white .back, .ds4 .start {     
-background: url(ps4-white-assets/start.svgz); }  
-
-*/.ds4.white .button {
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  background: url(https://imgur.com/XAUKDbc.png);
-}
-
-.ds4.white .button.pressed {
-    background-position-y: 55px;
-    /* margin-top: 5px; */
-
-}
-/*
-.ds4.white .stick {
-  position: absolute;
-  background: url(https://imgur.com/n9dk64u.png);
-  height: 94px;
-  width: 94px;
-}
-
-.ds4.white .face {     
-background: url(ps4-white-assets/dpad.svgz); }  
-
-/END PS4 White Controller Styling/
-*/
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
     background: url(https://imgur.com/VBnd4Nd.gif);
@@ -77,40 +26,6 @@ background: url(ps4-white-assets/dpad.svgz); }
 .ds4 .face {     
   background: url(https://imgur.com/MA3mrEK.png);
   position: absolute;
-}
-
-.ds4 .face.up, .ds4 .face.down {
-    width: 36px;
-    height: 52px;
-}
-
-.ds4 .face.left, .ds4 .face.right {
-    width: 52px;
-    height: 36px;
-}
-
-.ds4 .face.up {
-    left: 44px;
-    top: 0;
-    background-position: -37px 0px;
-}
-
-.ds4 .face.down {
-    left: 44px;
-    bottom: 0;
-    background-position: 0px 0;
-}
-
-.ds4 .face.left {
-    top: 45px;
-    left: 0;
-    background-position: 104px 0;
-}
-
-.ds4 .face.right {
-    top: 45px;
-    right: 0px;
-    background-position: 52px 0;
 }
 
 .ds4 .face.pressed {
