@@ -58,11 +58,9 @@ background: url(ps4-white-assets/dpad.svgz); }
         margin-top: -280px;*/
 }
 
-/*
 .ds4.disconnected {
     background: url(https://joryxnz.github.io/PS4/disconnected04_red.png);
 }
-*/
 
 .ds4 .trigger {     
   background-image: url(https://imgur.com/TGkOEru.png); }  
@@ -76,8 +74,18 @@ background: url(ps4-white-assets/dpad.svgz); }
 .ds4 .back, .ds4 .start {     
   background-image: url(ps4-white-assets/start.svgz); }
 
+.ds4 .dpad {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    top: 181px;
+    left: 92px;
+}
+
 .ds4 .face {     
-  background-image: url(ps4-white-assets/dpad.svgz); }
+  background-image: url(ps4-white-assets/dpad.svgz);
+  position: absolute;
+}
 
 .ds4 .button {
     position: absolute;
