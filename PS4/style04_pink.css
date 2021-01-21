@@ -11,6 +11,16 @@
     background: url(https://joryxnz.github.io/PS4/disconnected04_pink.png);
 }
 
+.ds4 .face {     
+  background: url(https://joryxnz.github.io/PS4/dpad6_pink.png);
+  position: absolute;
+}
+
+.ds4 .face.pressed {
+    /* margin-top: 5px; */
+    background-position-y: 52px;
+}
+
 .ds4 .button {
     position: absolute;
     width: 55px;
