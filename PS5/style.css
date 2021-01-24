@@ -25,8 +25,8 @@
     position: absolute;
     width: 170px;
     height: 171px;
-    top: 162px;
-    left: 564px;
+    top: 164px;
+    left: 560px;
 }
 
 .ds4 .button {
@@ -93,7 +93,7 @@
 
 .ds4 .stick.right {
     top: calc(100% - 105px);
-    left: calc(100% - 105px);
+    left: calc(100% - 110px);
 }
 
 
