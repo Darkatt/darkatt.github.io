@@ -12,7 +12,7 @@
 }
 
 .ds4 .face {     
-  background: url(https://joryxnz.github.io/PS4/dpad6.png);
+  background: url(https://joryxnz.github.io/PS5/dpad.png);
   position: absolute;
 }
 
@@ -57,7 +57,7 @@
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://joryxnz.github.io/PS4/sticks04_red.png);
+    background: url(https://joryxnz.github.io/PS5/sticks.png);
     height: 94px;
     width: 94px;
 }
