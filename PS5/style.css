@@ -160,7 +160,7 @@
 
 .ds4 .face.left {
     top: 35px;
-    left: 2px;
+    left: 1px;
     background-position: 132px 0;
 }
 
@@ -172,7 +172,7 @@
 
 .ds4 .face.pressed {
     /* margin-top: 5px; */
-    background-position-y: 60px;
+    background-position-y: 61px;
 }
 
 .ds4 .abxy {
