@@ -11,6 +11,14 @@
     background: url(https://joryxnz.github.io/PS4/disconnected04_red.png);
 }
 
+.ds4 .meta {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 382px;
+    bottom: 225px;
+}
+
 .ds4 .meta.pressed {
     background: url((https://joryxnz.github.io/PS5/meta.png) no-repeat center;
 }
