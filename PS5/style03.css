@@ -1,0 +1,255 @@
+/*BEGIN PS4 Controller Styling*/
+.controller.ds4 {
+    background: url(https://joryxnz.github.io/PS5/base.png);
+    height: 614px;
+    width: 806px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
+}
+
+.ds4.disconnected {
+    background: url(https://joryxnz.github.io/PS5/disconnected.png);
+}
+
+.ds4 .touchpad {
+    width: 312px;
+    height: 172px;
+    position: absolute;
+    left: 248px;
+    top: 107px;
+}
+
+.ds4 .touchpad.pressed {
+    background: url(https://joryxnz.github.io/PS5/touchpad3.png) no-repeat;
+}
+
+.ds4 .arrows {
+    position: absolute;
+    width: 384px;
+    height: 46px;
+    top: 147px;
+    left: 211px;
+}
+
+.ds4 .back, .ds4 .start {
+    background: url(https://joryxnz.github.io/PS5/select3.png) no-repeat;
+    width: 22px;
+    height: 35px;
+    opacity: 0;
+}
+
+.ds4 .back.pressed, .ds4 .start.pressed {
+    /* background-position-y: -21px; */
+    /* margin-top: 2px; */
+    opacity: 1;
+}
+
+.ds4 .back {
+    float: left;
+    /* width: 28px; */
+}
+
+.ds4 .start {
+    float: right;
+    /* width: 28px; */
+    transform: rotateY(180deg);
+}
+
+.ds4 .triggers {
+    width: 577px;
+    height: 90px;
+    position: absolute;
+    left: 115px;
+    top: 27px;
+}
+
+.ds4 .trigger {
+    width: 99px;
+    height: 100%;
+    background: url(https://joryxnz.github.io/PS5/triggers3.png);
+    opacity: 0;
+}
+
+.ds4 .trigger.left {
+    float: left;
+}
+
+.ds4 .trigger.right {
+    float: right;
+    background-position-x: 99px;
+    left: calc(100% - 12px);
+}
+
+.ds4 .bumper {
+    width: 105px;
+    height: 37px;
+    background: url(https://joryxnz.github.io/PS5/bumper3.png) no-repeat;
+    opacity: 0;
+}
+
+.ds4 .bumpers {
+    position: absolute;
+    width: 588px;
+    height: 37px;
+    left: 109px;
+    top: 99px;
+}
+
+.ds4 .bumper.pressed {
+    opacity: 1;
+}
+
+.ds4 .bumper.left {
+    /* -webkit-transform: rotateY(180deg); */
+    /* transform: rotateY(180deg); */
+    float: left;
+}
+
+.ds4 .bumper.right {
+    float: right;
+    transform: rotateY(180deg);
+    left: calc(100% - 1px);
+}
+
+.ds4 .meta {
+    width: 52px;
+    height: 40px;
+    position: absolute;
+    left: 377px;
+    bottom: 246px;
+}
+
+.ds4 .meta.pressed {
+    background: url(https://joryxnz.github.io/PS5/meta2.png) no-repeat center;
+}
+
+.ds4 .dpad {
+    position: absolute;
+    width: 126px;
+    height: 127px;
+    top: 190px;
+    left: 93px;
+}
+
+.ds4 .face {     
+  background: url(https://joryxnz.github.io/PS5/dpad3.png);
+  position: absolute;
+}
+
+.ds4 .face.up, .ds4 .face.down {
+    width: 49px;
+    height: 59px;
+}
+
+.ds4 .face.left, .ds4 .face.right {
+    width: 59px;
+    height: 49px;
+}
+
+.ds4 .face.up {
+    left: 44px;
+    top: -8px;
+    background-position: -49px 0px;
+}
+
+.ds4 .face.down {
+    left: 44px;
+    bottom: 0;
+    background-position: 0px 0;
+}
+
+.ds4 .face.left {
+    top: 35px;
+    left: 1px;
+    background-position: 132px 0;
+}
+
+.ds4 .face.right {
+    top: 35px;
+    right: -10px;
+    background-position: 72px 0px;
+}
+
+.ds4 .face.pressed {
+    /* margin-top: 5px; */
+    background-position-y: 61px;
+}
+
+.ds4 .abxy {
+    position: absolute;
+    width: 170px;
+    height: 171px;
+    top: 164px;
+    left: 560px;
+}
+
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(https://joryxnz.github.io/PS5/face3.png);
+}
+
+.ds4 .button.pressed {
+    background-position-y: 55px;
+    /* margin-top: 5px; */
+}
+
+.ds4 .a {
+    background-position: 0 0;
+    bottom: 1px;
+    left: 57px;
+}
+
+.ds4 .b {
+    background-position: -57px 0;
+    top: 58px;
+    right: 0px;
+}
+
+.ds4 .x {
+    background-position: -113px 0;
+    top: 57px;
+    left: 1px;
+}
+
+.ds4 .y {
+    background-position: 55px 0;
+    left: 57px;
+}
+
+.ds4 .sticks {
+    position: absolute;
+    width: 361px;
+    height: 105px;
+    top: 308px;
+    left: 232px;
+}
+
+.ds4 .stick {
+    position: absolute;
+    background: url(https://joryxnz.github.io/PS5/sticks.png);
+    height: 94px;
+    width: 94px;
+}
+
+.ds4 .stick.pressed.left {
+    background-position-x: -96px;
+}
+
+.ds4 .stick.pressed.right {
+    background-position-x: -192px;
+}
+
+.ds4 .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.ds4 .stick.right {
+    top: calc(100% - 105px);
+    left: calc(100% - 112px);
+}
+
+
+/*END PS4 Controller Styling*/
