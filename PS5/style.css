@@ -21,6 +21,14 @@
     background-position-y: 52px;
 }
 
+.ds4 .abxy {
+    position: absolute;
+    width: 170px;
+    height: 171px;
+    top: 162px;
+    left: 564px;
+}
+
 .ds4 .button {
     position: absolute;
     width: 55px;
