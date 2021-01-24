@@ -148,7 +148,7 @@
 
 .ds4 .face.up {
     left: 44px;
-    top: -7px;
+    top: -8px;
     background-position: -49px 0px;
 }
 
@@ -161,18 +161,18 @@
 .ds4 .face.left {
     top: 45px;
     left: 0;
-    background-position: 140px 0;
+    background-position: 130px 0;
 }
 
 .ds4 .face.right {
-    top: 45px;
-    right: 0px;
+    top: 36px;
+    right: -8px;
     background-position: 72px 0;
 }
 
 .ds4 .face.pressed {
     /* margin-top: 5px; */
-    background-position-y: 52px;
+    background-position-y: 59px;
 }
 
 .ds4 .abxy {
