@@ -13,10 +13,10 @@
 
 .ds4 .dpad {
     position: absolute;
-    width: 126px;
-    height: 127px;
+    width: 128px;
+    height: 129px;
     top: 186px;
-    left: 100px;
+    left: 99px;
 }
 
 .ds4 .face {     
