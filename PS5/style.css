@@ -128,7 +128,7 @@
     width: 126px;
     height: 127px;
     top: 190px;
-    left: 94px;
+    left: 93px;
 }
 
 .ds4 .face {     
@@ -148,8 +148,8 @@
 
 .ds4 .face.up {
     left: 44px;
-    top: 0;
-    background-position: -50px 0px;
+    top: 7px;
+    background-position: -49px 0px;
 }
 
 .ds4 .face.down {
