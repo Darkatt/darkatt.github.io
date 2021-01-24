@@ -97,6 +97,7 @@
 .ds4 .bumper.right {
     float: right;
     transform: rotateY(180deg);
+    left: calc(100% - 1px);
 }
 
 .ds4 .meta {
