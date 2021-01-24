@@ -61,13 +61,13 @@
 
 .ds4 .trigger.left {
     float: left;
-    left: 12px;
+    left: 20px;
 }
 
 .ds4 .trigger.right {
     float: right;
     background-position-x: 99px;
-    right: 12px;
+    right: 20px;
 }
 
 .ds4 .bumper {
