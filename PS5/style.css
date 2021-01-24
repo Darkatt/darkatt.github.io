@@ -48,7 +48,7 @@
     width: 588px;
     height: 90px;
     position: absolute;
-    left: 109px;
+    left: 119px;
     top: 30px;
 }
 
@@ -61,13 +61,12 @@
 
 .ds4 .trigger.left {
     float: left;
-    left: 20px;
 }
 
 .ds4 .trigger.right {
     float: right;
     background-position-x: 99px;
-    right: 20px;
+    left: calc(100% - 12px);
 }
 
 .ds4 .bumper {
