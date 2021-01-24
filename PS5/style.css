@@ -159,20 +159,20 @@
 }
 
 .ds4 .face.left {
-    top: 45px;
-    left: 0;
-    background-position: 130px 0;
+    top: 35px;
+    left: 2px;
+    background-position: 132px 0;
 }
 
 .ds4 .face.right {
-    top: 36px;
-    right: -8px;
-    background-position: 72px 0;
+    top: 35px;
+    right: -10px;
+    background-position: 72px 0px;
 }
 
 .ds4 .face.pressed {
     /* margin-top: 5px; */
-    background-position-y: 59px;
+    background-position-y: 60px;
 }
 
 .ds4 .abxy {
