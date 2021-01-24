@@ -15,8 +15,8 @@
     position: absolute;
     width: 352px;
     height: 46px;
-    top: 142px;
-    left: 227px;
+    top: 145px;
+    left: 225px;
 }
 
 .ds4 .back, .ds4 .start {
@@ -40,7 +40,6 @@
 .ds4 .start {
     float: right;
     /* width: 28px; */
-    background-position: 28px 0;
     transform: rotateY(180deg);
 }
 
