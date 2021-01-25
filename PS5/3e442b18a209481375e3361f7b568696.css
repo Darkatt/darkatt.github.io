@@ -253,3 +253,305 @@
 
 
 /*END PS4 Controller Styling*/
+
+.raw-outputs {
+    display: none;
+}
+
+.raw-outputs.active {
+    display: block;
+}
+
+.raw-outputs li {
+    display: inline-block;
+    min-width: 40px;
+    text-align: right;
+    padding: 20px 5px 5px 10px;
+    background: deepskyblue;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 5px 5px 0;
+    opacity: .6;
+}
+
+.raw-outputs li.disabled {
+    background: orangered;
+}
+
+.raw-outputs li:before {
+    content: attr(data-shortname);
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+}
+
+#mapping-config .form-group {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mapping-config #mappings select {
+    font-size: inherit;
+}
+
+#mapping-config #mappings .form-group > select {
+    display: none;
+}
+
+#mapping-config #mappings button {
+    flex-grow: 1;
+    margin: 0 5px 0px 14px;
+    transition: .4s ease-out;
+    position: relative;
+}
+
+#mapping-config #mappings .form-group > button + button {
+    display: none;
+    margin: 0 5px 0px 0px;
+}
+
+#mapping-config #mappings [data-tooltip]:after {
+    opacity: 0;
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    background: orangered;
+    color: white;
+    padding: 4px;
+    border-radius: 23px;
+    transition: .3s ease-out;
+    white-space: nowrap;
+}
+
+#mapping-config .template {
+    display: none;
+}
+
+#mapping-config .map-control {
+    font-size: 24px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+#mapping-config .map-control i {
+    vertical-align: top;
+}
+
+#mapping-help.map-control {
+    float: right;
+}
+
+#mapping-help.map-control:after {
+    display: block;
+    clear: both;
+}
+
+#mapping-config .form-group .material-icons {
+    color: black;
+    transition: .4s ease-out;
+    opacity: .5;
+    text-decoration: none;
+    font-size: 37px;
+    line-height: normal;
+    vertical-align: bottom;
+}
+
+#mapping-config .form-group .material-icons:hover {
+    opacity: 1;
+}
+
+#mapping-config .add-config:hover {
+    color: green;
+}
+
+#mapping-config .del-config:hover {
+    color: red;
+}
+
+#mapping-config input[type=radio], #mapping-config .disable-item {
+    margin-right: 70px;
+    display: inline-block;
+    width: 0px;
+    height: 23px;
+    font-size: inherit;
+    opacity: .5;
+    transition: .4s ease-out;
+}
+
+#mapping-config input[type=radio][value=axes] {
+    margin-right: 50px;
+}
+
+#mapping-config input[type=radio][value="dpad"] {
+    margin-right: 36px;
+}
+
+#mapping-config select{
+    margin-left: 6px;
+}
+
+#mapping-config input[type=radio]:checked, #mapping-config .disable-item:checked {
+    opacity: 1;
+}
+
+#mapping-config #mappings .disable-item:checked ~ button {
+    opacity: .5;
+    pointer-events: none;
+
+}
+
+#mapping-config input[value="buttons"]:after, #mapping-config input[value="axes"]:after, #mapping-config input[value="dpad"]:after, #mapping-config .disable-item:after {
+    display: inline-block;
+    background: orangered;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#mapping-config input[value="buttons"]:after {
+    content: "Button";
+}
+
+#mapping-config input[value="axes"]:after {
+    content: "Axis";
+}
+
+#mapping-config input[value="dpad"]:after {
+    font-family: "Material Icons";
+    content: "gamepad";
+    font-size: 23px;
+}
+
+#mapping-config .disable-item:after {
+    content: "Disable";
+}
+
+#mapping-config .axes-config:after {
+    font-family: inherit;
+    content: "check_box_outline_blank";
+    line-height: inherit;
+    cursor: pointer;
+}
+
+#mapping-config .axes-config:checked:after {
+    content: "check_box";
+}
+
+#mapping-config .axes-config {
+    width: 37px;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+#mapping-config .axes-config:checked {
+    opacity: 1;
+}
+
+#mapping-config .axes-config {
+    order: -1;
+}
+
+#mapping-config #mappings input[value="buttons"]:checked ~ select[name="buttons"], #mapping-config #mappings input[value="axes"]:checked ~ select[name="axes"] {
+    display: inline-block;
+}
+
+#mapping-config #mappings .fix-panel {
+    display: none;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#mapping-config #mappings .fix-panel span {
+    line-height: 37px;
+    margin-right: 5px;
+    font-size: inherit;
+}
+
+#mapping-config #mappings .fix-axes, #mapping-config #mappings .fix-dpad li{
+    height: 37px;
+}
+
+#mapping-config #mappings .fix-dpad li{
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: flex-end;
+}
+
+#mapping-config #mappings .fix-dpad{
+    flex-direction: column;
+}
+
+#mapping-config #mappings .fix-dpad button {
+    max-width: 655px;
+}
+
+#mapping-config #mappings .axes-config:checked ~ .fix-axes, #mapping-config #mappings input[type=radio][value=dpad]:checked ~ .fix-dpad{
+    display: flex;
+}
+
+#mapping-config #mappings .axes-config:checked ~ button:nth-of-type(2) {
+    display: none !important;
+}
+
+#mapping-config #mappings input[value="dpad"]:checked ~ .axes-config, #mapping-config #mappings input[value="dpad"]:checked ~ .fix-axes{
+    display: none;
+}
+
+#mapping-config #mappings input[value="axes"]:checked ~ .axes-config:not(:checked) ~ [data-tooltip]:hover:after, #mapping-config #mappings .fix-axes [data-tooltip]:hover:after {
+    opacity: 1;
+    top: -28px;
+}
+
+#mapping-config #mappings input[value="axes"]:checked ~ button:nth-of-type(2) {
+    display: block;
+}
+
+#mapping-config #mappings .map-message {
+    width: 100%;
+    display: none;
+    order: -2;
+    background: darkgreen;
+    color: #F2F2F2;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+#mapping-config #mappings .map-message.error {
+    display: block;
+    background: hsla(0,86%,50%,1);
+}
+
+#mapping-config #mappings .map-message.success{
+    display: block;
+    animation: 4s msg-animation forwards;
+}
+
+#mapping-config .button-group button {
+    float: right;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    background: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#mappings:empty + div {
+    display: none;
+}
