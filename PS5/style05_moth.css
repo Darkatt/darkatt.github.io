@@ -20,7 +20,7 @@
 }
 
 .ds4 .touchpad.pressed {
-    background: url(https://joryxnz.github.io/PS5/touchpad3.png) no-repeat;
+    background: url(https://joryxnz.github.io/PS5/touchpad05_moth.png) no-repeat;
 }
 
 .ds4 .arrows {
@@ -187,7 +187,7 @@
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://joryxnz.github.io/PS5/face3.png);
+    background: url(https://joryxnz.github.io/PS5/face05_moth.png);
 }
 
 .ds4 .button.pressed {
@@ -228,7 +228,7 @@
 
 .ds4 .stick {
     position: absolute;
-    background: url(https://joryxnz.github.io/PS5/sticks.png);
+    background: url(https://joryxnz.github.io/PS5/sticks05_moth.png);
     height: 94px;
     width: 94px;
 }
